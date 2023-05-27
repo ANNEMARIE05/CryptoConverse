@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 9vh;
+    background-color: #9A616D;
+    width: 100%;
+    padding: 1.7rem;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header span{
+    color: #000;
+}
+header h1{
+    font-family: cursive;
+    color: #FFF;
+}
+header nav div ul{
+    display: flex;
+}
+ul a{
+    list-style: none;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #FFF;
+}
+ul li:hover{
+    color: #e7dfdf;
+}
+.menu{
+    height: 76vh;
+    position: relative;
+    padding: 5rem;
+    width: 100%;
+    background-color: #000;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.814),rgba(34, 34, 34, 0.814)),
+    url(../../img/app.png);
+}
+.menu div{
+    width: 370px;
+    height: 40vh;
+    margin: auto;
+    padding: 3rem;
+    background-color: #FFF;
+}
+footer{
+    height: 15vh;
+    width: 100%;
+    padding: 2.5rem;
+    background-color: #9A616D;
+}
+footer span{
+    color: #000;
+}
+footer h1{
+    font-family: cursive;
+    color: #FFF;
+}
+footer h6{
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
+}
+footer a{
+    color: #000;
+    text-decoration: none;
+}

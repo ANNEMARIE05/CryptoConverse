@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 9vh;
+    background-color: #9A616D;
+    width: 100%;
+    padding: 1.7rem;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header span{
+    color: #000;
+}
+header h1{
+    font-family: cursive;
+    color: #FFF;
+}
+header nav div ul{
+    display: flex;
+}
+ul a{
+    list-style: none;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #FFF;
+}
+ul li:hover{
+    color: #e7dfdf;
+}
+.menu{
+    margin: 2rem;
+}
+.el{
+    height: 62vh;
+    width: 100%;
+    padding: 3rem;
+    border: 2rem;
+    background-color: #9a616d5f;
+}
+.menu .el div{
+    height: 10vh;
+    width: 25vw;
+    margin: 15rem auto;
+}
+.menu button{
+    height: 9vh;
+    width: 20vw;
+}
+.el h2{
+    text-align: right;
+    color: #FFF;
+}
+h4{
+    margin: 3rem;
+}
+footer{
+    height: 15vh;
+    width: 100%;
+    padding: 2.5rem;
+    background-color: #9A616D;
+}
+footer span{
+    color: #000;
+}
+footer h1{
+    font-family: cursive;
+    color: #FFF;
+}
+footer h6{
+    text-align: center;
+    color: #FFF;
+    font-size: 1rem;
+}
+footer a{
+    color: #000;
+    text-decoration: none;
+}
